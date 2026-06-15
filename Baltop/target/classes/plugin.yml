@@ -1,0 +1,11 @@
+name: Baltop
+version: '1.0-SNAPSHOT'
+main: hu.msizsolt.baltop.BaltopPlugin
+api-version: '1.21'
+load: POSTWORLD
+depend:
+  - Vault
+commands:
+  baltop:
+    description: Opens the baltop GUI or shows a single player's balance.
+    usage: /baltop [player]
